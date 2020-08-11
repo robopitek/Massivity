@@ -1,0 +1,38 @@
+<Patch>
+
+     <!--= def with stat factor =-->
+	 
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "new Def from mod"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>mass factor</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+</Patch>
+
+<Patch>
+
+     <!--= def without stat factor =-->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "new Def from mod"]/stuffProps</xpath>
+			<value>
+			<statFactors>
+			<Mass>mass factor</Mass>
+			</statFactors>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+</Patch>
+For abstract patching write [@Name = "new abstract from mod"] instead of [defName = "new Def from mod"]

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	 <!--= 100% mass is 0.5(mass of Steel) =-->
+	
+	<!--===== i have big problem because this mod changes some masses from VGP Vegetable Garden (ironwood and bamboo)=====-->
+	<!--==so i decided to not adding this to avoid red errors (but maybe in the future I will find what to fix)==-->
+	
+	<!--=============== Resources_Wood ====================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_Apple"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1.6</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_Cherry"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1.2</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_DatePalm"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1.4</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_Fig"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.8</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_Orange"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.8</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_Peach"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1.2</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_Coconut"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1.6</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<!--=============== Resources_Lumber ====================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "LumberIronwood"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.8</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "LumberApple"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.8</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "LumberCherry"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.6</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "LumberDatePalm"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.7</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "LumberFig"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.4</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "LumberOrange"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.4</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "LumberPeach"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.6</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "LumberCoconut"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.8</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	 <!--= 100% mass is 0.5(mass of Steel) =-->
+	
+	<!--=============== Composite/Synthylene (0.2) ====================-->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "FiberComposite"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.4</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "Synthylene"]/stuffProps</xpath>
+			<value>
+			<statFactors>
+			<Mass>0.4</Mass>
+			</statFactors>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<!--=============== Synthamide (0.032) ====================-->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "Synthamide"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1.23</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+</Patch>
