@@ -1,3 +1,0 @@
-Steel have mass 0.5
-
-Cloth have mass 0.026
