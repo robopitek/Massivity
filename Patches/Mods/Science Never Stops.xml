@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	 <!--= 100% mass is 0.5(mass of Steel) =-->
+	
+	<!--=============== Unobtainium (0.005) ====================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "SNS_Unobtainium"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.01</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	 <!--= 100% mass is 0.026(mass of Cloth) =-->
+	
+	<!--=============== Unobtainium Fiber (0.001) ====================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "SNS_Unobtainium_Fiber"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.04</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+</Patch>

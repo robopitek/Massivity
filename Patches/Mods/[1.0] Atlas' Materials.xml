@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	 <!--= 100% mass is 0.5(mass of Steel) =-->
+	
+	<!--=============== Items_Resource_Masonry ====================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "Blocks_BrickAM"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1.6</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "Blocks_MudAM"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>2</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "Stuff_ConcreteAM"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>2.5</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "Stuff_RefConcreteAM"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>3</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "Stuff_PlasterAM"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>2</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<!--=========== Items_Resource_Plastics (all have 0.02) ================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AM_MixedPlastic"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.04</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AM_UHMWPlastic"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.04</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AM_Acrylic"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.04</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<!--=============== Items_Resource_Woodwork ====================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AM_LWood"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.9</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	 <!--= 100% mass is 0.026(mass of Cloth) =-->
+	
+	<!--=========== Items_Resource_Plastics (all have 0.02) ================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AM_Polyester"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.85</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AM_AcrylicWeave"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.85</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AM_Nylon"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.85</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AM_Kevlar"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.85</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+</Patch>

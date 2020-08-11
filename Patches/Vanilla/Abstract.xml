@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	 <!--= 100% mass is 0.0.26(mass of Cloth) =-->
+	
+	<!--=============== Leather (0.03) ====================-->
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[@Name = "LeatherBase"]/stuffProps/statFactors</xpath>
+	  <value>
+	  <Mass>1.15</Mass>
+	  </value>
+	</Operation>
+	
+	<!--=============== Wool (0.028) ====================-->
+	<Operation Class="PatchOperationAdd">
+	  <xpath>*/ThingDef[@Name = "WoolBase"]/stuffProps/statFactors</xpath>
+	  <value>
+	  <Mass>1.08</Mass>
+	  </value>
+	</Operation>
+	
+</Patch>
