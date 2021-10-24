@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	 <!--= 100% mass is 0.5(mass of Steel) =-->
+	
+	<!--=============== Items_Resource_Misc ====================-->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_GronckleIron"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.26</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_WoodLog"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>10</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<!--=============== Items_Resource_Stuff_Leather ====================-->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_FlightmareDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.8</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_FuryDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.8</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_GronckleDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.8</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_HotburpleDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.8</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_NadderDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.8</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_NightmareDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.8</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_RumblehornDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>1</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_ScauldronDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.8</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_StormcutterDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.8</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_TerribleTerrorDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.6</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_ZipplebackDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.8</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_RazorwhipDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>1.2</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_TripleStrykeDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>1.6</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_SkrillDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>0.8</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RttR_PatchedDragonScales"]/stuffProps/statFactors</xpath>
+				<value>
+					<Mass>1</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>

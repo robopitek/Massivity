@@ -39,10 +39,43 @@
 		</li>
 		</operations>
 	</Operation>
-	<!--==== (Mass of 0.5 so these logs are untouched) ====-->
-    <!--=============== WoodLog_Cocoa ====================-->
-	<!--=============== WoodLog_Cypress ==================-->
-	<!--=============== WoodLog_Drago ====================-->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_Cocoa"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_Cypress"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_Drago"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -66,7 +99,19 @@
 		</li>
 		</operations>
 	</Operation>
-	<!--=============== WoodLog_Pine ====================-->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "WoodLog_Pine"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -190,7 +235,7 @@
 		</li>
 		</operations>
 	</Operation>
-		
+	
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>

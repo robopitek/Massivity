@@ -4,8 +4,30 @@
 	 <!--= 100% mass is 0.5(mass of Steel) =-->
 	
 	<!--==== (mass of 0.5 so these Ingots are untouched) ====-->
-	<!--================== IronIngot =======================-->
-	<!--================== CopperIngot =====================-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "IronIngot"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "CopperIngot"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -125,7 +147,19 @@
 		</li>
 		</operations>
 	</Operation>
-	<!--================= Transparisteel ====================-->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "Transparisteel"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -137,9 +171,43 @@
 		</li>
 		</operations>
 	</Operation>
-	<!--================== ShockCrystals ====================-->
-	<!--================== Ferotium =========================-->
-	<!--================== Corrosium ========================-->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "ShockCrystals"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "Ferotium"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "Corrosium"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>1</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
