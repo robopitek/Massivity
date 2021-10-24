@@ -3,8 +3,8 @@
 
 	 <!--= 100% mass is 0.5(mass of Steel) =-->
 	
-	<!--===== i have big problem because this mod changes some masses from VGP Vegetable Garden (ironwood and bamboo)=====-->
-	<!--==so i decided to not adding this to avoid red errors (but maybe in the future I will find what to fix)==-->
+	<!--===== I have a big problem because this mod changes some masses from VGP Vegetable Garden (ironwood and bamboo)=====-->
+	<!--==so I decided to not adding this to avoid red errors (but maybe in the future I will find how to fix it)==-->
 	
 	<!--=============== Resources_Wood ====================-->
 	<Operation Class="PatchOperationSequence">

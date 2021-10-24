@@ -6,24 +6,24 @@
 	<!--=============== Textiles ====================-->
 	 
 	<Operation Class="PatchOperationAdd">
-	  <xpath>*/ThingDef[defName = "Synthread"]/stuffProps/statFactors</xpath>
-	  <value>
-	  <Mass>0.96</Mass>
-	  </value>
+		<xpath>*/ThingDef[defName = "Synthread"]/stuffProps/statFactors</xpath>
+		<value>
+			<Mass>0.96</Mass>
+		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-	  <xpath>*/ThingDef[defName = "DevilstrandCloth"]/stuffProps/statFactors</xpath>
-	  <value>
-	  <Mass>1.23</Mass>
-	  </value>
+		<xpath>*/ThingDef[defName = "DevilstrandCloth"]/stuffProps/statFactors</xpath>
+		<value>
+			<Mass>1.23</Mass>
+		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
-	  <xpath>*/ThingDef[defName = "Hyperweave"]/stuffProps/statFactors</xpath>
-	  <value>
-	  <Mass>1.46</Mass>
-	  </value>
+		<xpath>*/ThingDef[defName = "Hyperweave"]/stuffProps/statFactors</xpath>
+		<value>
+			<Mass>1.46</Mass>
+		</value>
 	</Operation>
-	<!--============ Go to Abstract.xml file for wool (MUHAHA i bad person) ============-->
+	<!--============ Go to Abstract.xml file for wool (MUHAHA I am a bad person) ============-->
 </Patch>
