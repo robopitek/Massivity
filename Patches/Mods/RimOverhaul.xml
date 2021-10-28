@@ -3,7 +3,6 @@
 
 	 <!--= 100% mass is 0.5(mass of Steel) =-->
 	
-	<!--==== (mass of 0.5 so these Ingots are untouched) ====-->
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
