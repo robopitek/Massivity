@@ -68,7 +68,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>*/ThingDef[defName = "BlocksSlate"]/stuffProps/statFactors</xpath>
 		<value>
-			<Mass>1.18</Mass>
+			<Mass>1.8</Mass>
 		</value>
 	</Operation>
 	
