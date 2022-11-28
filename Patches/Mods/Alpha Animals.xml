@@ -17,4 +17,42 @@
 		</operations>
 	</Operation>
 	
+	 <!--= 100% mass is 0.026(mass of Cloth)=-->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AA_CinderSilk"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.96</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AA_MothSilk"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.04</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AA_GiantCrownedSilkieSilk"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.08</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+
 </Patch>
