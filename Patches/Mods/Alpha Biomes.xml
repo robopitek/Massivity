@@ -3,8 +3,43 @@
 
 	 <!--= 100% mass is 0.5(mass of Steel) =-->
 	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AB_AlcyoniteChunk"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>2</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AB_CrystalWood"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.2</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AB_CrystalWood"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>0.2</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+
 	<!--============= GU_RedWood works is for Alpha Animals too ==================-->
-	  
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
@@ -29,7 +64,7 @@
 		</operations>
 	</Operation>
 	
-		<Operation Class="PatchOperationSequence">
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 		<li Class="PatchOperationAdd">
@@ -41,7 +76,7 @@
 		</operations>
 	</Operation>
 	
-		<Operation Class="PatchOperationSequence">
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 		<li Class="PatchOperationAdd">
@@ -53,7 +88,19 @@
 		</operations>
 	</Operation>
 	
-		<Operation Class="PatchOperationSequence">
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "AB_BlocksObsidian"]/stuffProps/statFactors</xpath>
+			<value>
+			<Mass>2</Mass>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
 		<operations>
 		<li Class="PatchOperationAdd">
