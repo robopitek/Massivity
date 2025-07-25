@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+	 <!--= 100% mass is 0.5(mass of Steel) =-->
+	
+	<!--=============== Stone ====================-->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "BlocksVacstone"]/stuffProps/statFactors</xpath>
+		<value>
+			<Mass>1.8</Mass>
+		</value>
+	</Operation>-
+</Patch>

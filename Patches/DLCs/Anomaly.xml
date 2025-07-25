@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	 <!--= 100% mass is 0.5(mass of Steel) =-->
+	
+	<!--=============== Metallic/Woody ====================-->
+	  
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "Bioferrite"]/stuffProps/statFactors</xpath>
+		<value>
+			<Mass>0.5</Mass>
+		</value>
+	</Operation>-
+
+</Patch>
