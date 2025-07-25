@@ -6,10 +6,15 @@
 	
 	<!--=============== Stone ====================-->
 	
-	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThingDef[defName = "BlocksVacstone"]/stuffProps/statFactors</xpath>
-		<value>
+<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>*/ThingDef[defName = "BlocksVacstone"]/stuffProps/statFactors</xpath>
+			<value>
 			<Mass>1.8</Mass>
-		</value>
-	</Operation>-
+			</value>
+		</li>
+		</operations>
+	</Operation>
 </Patch>
